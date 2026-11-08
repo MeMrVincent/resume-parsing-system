@@ -1,0 +1,17 @@
+{
+  "name_by_contact": {
+    "13800000001": "张三"
+  },
+  "remove_work": [
+    "身高 Height"
+  ],
+  "remove_education": [
+    "实践描述"
+  ],
+  "education_replacements": {
+    "某某大学（错）": "某某大学"
+  },
+  "manual_identity_contacts": [
+    "13800000002"
+  ]
+}

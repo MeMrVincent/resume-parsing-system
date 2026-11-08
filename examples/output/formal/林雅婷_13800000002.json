@@ -1,0 +1,292 @@
+{
+  "schema_version": "resume-merge-v3.0",
+  "record_id": "merge-v3-00f460019cd0d402",
+  "source": {
+    "original_path": "<项目根>/需要采集的简历文件夹/示例/林雅婷简历中英文.docx",
+    "html_path": "",
+    "source_count": 1,
+    "source_files": [
+      {
+        "index": 0,
+        "version": "v2",
+        "json_path": "examples/v2/林雅婷_13800000002.json",
+        "sha256": "cca36a6cc5c5bd0f75922be3056eb76e81d277a0b353a234a3fd0dfa4cc2b58f",
+        "duplicate_paths": [],
+        "original_path": "<项目根>/需要采集的简历文件夹/示例/林雅婷简历中英文.docx",
+        "html_path": "",
+        "resume_updated_date": "2024-05-01 10:00:00",
+        "languages": [
+          "zh",
+          "en"
+        ]
+      }
+    ]
+  },
+  "dates": {
+    "resume_updated_date": "2024-05-01 10:00:00",
+    "resume_download_date": "2024-05-02 09:00:00",
+    "resume_updated_date_source": "",
+    "resume_download_date_source": "",
+    "sys_created_date": "2026-01-01T09:00:00+09:00",
+    "sys_updated_date": "2026-01-01T00:00:00+09:00"
+  },
+  "extraction": {
+    "merger": "claude_merge.v3.py",
+    "rule_version": "merge-v3.0-contact-key"
+  },
+  "classification": {
+    "document_type": "resume",
+    "reason": "按手机号/邮箱合并的候选人"
+  },
+  "structured_data": {
+    "base_info": {
+      "full_name": "林雅婷",
+      "gender": "女",
+      "age": "",
+      "birth_date": "",
+      "birth_year": "1992",
+      "marital_status": "",
+      "children_status": "",
+      "political_status": "",
+      "height_cm": "",
+      "weight_kg": "",
+      "household_registration": "",
+      "address": "",
+      "postal_code": "",
+      "platform_from": "示例平台",
+      "platform_resume_id": "",
+      "phone": "13800000002",
+      "email": "linyating@example.com",
+      "city": "北京",
+      "nationality": "",
+      "pr": ""
+    },
+    "expected_info": {
+      "expected_city": "",
+      "expected_position": "",
+      "expected_salary": "",
+      "expected_annual_salary_min": "",
+      "expected_annual_salary_max": "",
+      "expected_industry": "",
+      "expected_employment_type": "",
+      "expected_start_date": ""
+    },
+    "current_info": {
+      "company_name": "示例贸易有限公司",
+      "company_employees": "",
+      "company_industry": "",
+      "position": "销售经理",
+      "position_type": "",
+      "position_salary": "",
+      "position_dept": "",
+      "position_report_to": "",
+      "position_subordinate": "",
+      "employment_type": "",
+      "annual_salary_min": "",
+      "annual_salary_max": "",
+      "status": "在职",
+      "position_start": "2018年03月01日",
+      "position_resigned": ""
+    },
+    "education_info": {
+      "school_name": "示例外国语大学",
+      "school_major_name": "英语",
+      "school_degree_type": "本科",
+      "school_degree_rank": "4",
+      "school_education_type": "",
+      "school_start_ym": "2010年09月01日",
+      "school_end_ym": "2014年06月01日"
+    },
+    "resumes": [
+      {
+        "resume_languge": "zh",
+        "base_info": {
+          "full_name": "林雅婷",
+          "gender": "女",
+          "age": "",
+          "birth_date": "",
+          "birth_year": "1992",
+          "marital_status": "",
+          "children_status": "",
+          "political_status": "",
+          "height_cm": "",
+          "weight_kg": "",
+          "household_registration": "",
+          "address": "",
+          "postal_code": "",
+          "platform_from": "示例平台",
+          "platform_resume_id": "",
+          "phone": "13800000002",
+          "email": "linyating@example.com",
+          "city": "北京",
+          "nationality": "",
+          "pr": ""
+        },
+        "expected_list": [],
+        "work_experiences": [
+          {
+            "company_name": "示例贸易有限公司",
+            "company_employees": "",
+            "company_industry": "",
+            "position": "销售经理",
+            "position_type": "",
+            "position_salary": "",
+            "position_dept": "",
+            "position_report_to": "",
+            "position_subordinate": "",
+            "employment_type": "",
+            "annual_salary_min": "",
+            "annual_salary_max": "",
+            "status": "在职",
+            "position_start": "2018年03月01日",
+            "position_resigned": "",
+            "resigned_reason": "",
+            "position_responsibilities": "负责华东区客户开发。",
+            "position_achievements": ""
+          }
+        ],
+        "education_list": [
+          {
+            "school_name": "示例外国语大学",
+            "school_major_name": "英语",
+            "school_degree_type": "本科",
+            "school_degree_rank": "4",
+            "school_education_type": "",
+            "school_start_ym": "2010年09月01日",
+            "school_end_ym": "2014年06月01日"
+          }
+        ],
+        "certificate_list": [],
+        "language_list": [
+          {
+            "language_name": "英语",
+            "language_level": "流利",
+            "language_certificate": "",
+            "language_certificate_time": ""
+          }
+        ],
+        "skills_list": [],
+        "training_list": [],
+        "project_list": [],
+        "communication_list": []
+      },
+      {
+        "resume_languge": "en",
+        "base_info": {
+          "full_name": "Lin Yating",
+          "gender": "Female",
+          "age": "",
+          "birth_date": "",
+          "birth_year": "1992",
+          "marital_status": "",
+          "children_status": "",
+          "political_status": "",
+          "height_cm": "",
+          "weight_kg": "",
+          "household_registration": "",
+          "address": "",
+          "postal_code": "",
+          "platform_from": "Example Platform",
+          "platform_resume_id": "",
+          "phone": "13800000002",
+          "email": "linyating@example.com",
+          "city": "Beijing",
+          "nationality": "",
+          "pr": ""
+        },
+        "expected_list": [],
+        "work_experiences": [
+          {
+            "company_name": "Example Trading Co., Ltd.",
+            "company_employees": "",
+            "company_industry": "",
+            "position": "Sales Manager",
+            "position_type": "",
+            "position_salary": "",
+            "position_dept": "",
+            "position_report_to": "",
+            "position_subordinate": "",
+            "employment_type": "",
+            "annual_salary_min": "",
+            "annual_salary_max": "",
+            "status": "Current",
+            "position_start": "2018年03月01日",
+            "position_resigned": "",
+            "resigned_reason": "",
+            "position_responsibilities": "Responsible for customer development in East China.",
+            "position_achievements": ""
+          }
+        ],
+        "education_list": [
+          {
+            "school_name": "Example University of Foreign Studies",
+            "school_major_name": "English",
+            "school_degree_type": "Bachelor",
+            "school_degree_rank": "4",
+            "school_education_type": "",
+            "school_start_ym": "2010年09月01日",
+            "school_end_ym": "2014年06月01日"
+          }
+        ],
+        "certificate_list": [],
+        "language_list": [
+          {
+            "language_name": "English",
+            "language_level": "Fluent",
+            "language_certificate": "",
+            "language_certificate_time": ""
+          }
+        ],
+        "skills_list": [],
+        "training_list": [],
+        "project_list": [],
+        "communication_list": []
+      }
+    ]
+  },
+  "raw_text": "林雅婷\n女\n1992\n示例平台\n13800000002\nlinyating@example.com\n北京\n示例贸易有限公司\n销售经理\n在职\n2018年03月01日\n负责华东区客户开发。\n示例外国语大学\n英语\n本科\n4\n2010年09月01日\n2014年06月01日\n英语\n流利\nLin Yating\nFemale\n1992\nExample Platform\n13800000002\nlinyating@example.com\nBeijing\nExample Trading Co., Ltd.\nSales Manager\nCurrent\n2018年03月01日\nResponsible for customer development in East China.\nExample University of Foreign Studies\nEnglish\nBachelor\n4\n2010年09月01日\n2014年06月01日\nEnglish\nFluent",
+  "quality": {
+    "full_name": "林雅婷",
+    "has_work": true,
+    "work_count": 1,
+    "has_education": true,
+    "education_count": 1,
+    "languages": [
+      "zh",
+      "en"
+    ],
+    "raw_text_length": 428
+  },
+  "merge_info": {
+    "group_id": "00f460019cd0d402",
+    "rule_version": "merge-v3.0-contact-key",
+    "output_filename": "林雅婷_13800000002.json",
+    "name_status": "valid",
+    "canonical_name": "林雅婷",
+    "english_name": "Lin Yating",
+    "primary_phone": "13800000002",
+    "primary_email": "linyating@example.com",
+    "other_phones": [],
+    "other_emails": [],
+    "landlines": [],
+    "shared_contacts_ignored": [],
+    "needs_translation": false,
+    "v2_count": 1,
+    "v1_count": 0,
+    "language_sources": {
+      "zh": [
+        0
+      ],
+      "en": [
+        0
+      ]
+    },
+    "translated_from": "",
+    "name_note": "",
+    "conflict_count": 0,
+    "field_issue_count": 0,
+    "name_linked_sources": [],
+    "output_category": "formal",
+    "high_issue_count": 0
+  }
+}

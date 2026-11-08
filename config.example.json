@@ -1,0 +1,19 @@
+{
+  "_comment": "EN: Copy this file to config.json and edit as needed. Paths may be absolute or relative to the project root. Command-line arguments take precedence over this file. | 中文：复制本文件为 config.json 后按需修改。路径可写绝对路径，也可写相对“项目根”的相对路径。命令行参数优先于本文件。 | 日本語：このファイルを config.json にコピーして必要に応じて編集します。パスは絶対パス、またはプロジェクトルートからの相対パスで指定できます。コマンドライン引数がこのファイルより優先されます。",
+  "project_root": "",
+  "source_dir": "需要采集的简历文件夹",
+  "html_dir": "complete-transfered-htmls",
+  "v1_dir": "complete-v1",
+  "v2_dir": "complete-v2",
+  "v3_dir": "complete-v3",
+  "output_dir": "output",
+  "merge_out_dir": "output/merge-v3",
+  "repair_dir": "output/source-repair-v3",
+  "align_dir": "claude-align",
+  "python_exe": "python",
+  "dir_names": {},
+  "path_map": {
+    "E:\\resume-system\\codex-transfered-htmls": "{root}/complete-transfered-htmls",
+    "E:\\resume-system": "{root}"
+  }
+}

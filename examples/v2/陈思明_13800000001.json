@@ -1,0 +1,190 @@
+{
+  "source": {
+    "original_path": "<项目根>/需要采集的简历文件夹/示例/陈思明简历.docx"
+  },
+  "dates": {
+    "resume_updated_date": "2024-05-01 10:00:00",
+    "resume_download_date": "2024-05-02 09:00:00",
+    "sys_created_date": "2026-01-01T09:00:00+09:00",
+    "sys_updated_date": "2026-01-01T09:00:00+09:00"
+  },
+  "structured_data": {
+    "base_info": {
+      "full_name": "陈思明",
+      "gender": "男",
+      "age": "",
+      "birth_date": "1990年05月01日",
+      "birth_year": "1990",
+      "marital_status": "",
+      "children_status": "",
+      "political_status": "",
+      "height_cm": "",
+      "weight_kg": "",
+      "household_registration": "",
+      "address": "",
+      "postal_code": "",
+      "platform_from": "示例平台",
+      "platform_resume_id": "",
+      "phone": "13800000001",
+      "email": "chensiming@example.com",
+      "city": "上海",
+      "nationality": "",
+      "pr": ""
+    },
+    "expected_info": {
+      "expected_city": "上海",
+      "expected_position": "软件工程师",
+      "expected_salary": "20001-30000元/月",
+      "expected_annual_salary_min": "",
+      "expected_annual_salary_max": "",
+      "expected_industry": "",
+      "expected_employment_type": "全职",
+      "expected_start_date": ""
+    },
+    "current_info": {
+      "company_name": "示例科技有限公司",
+      "company_employees": "",
+      "company_industry": "",
+      "position": "软件工程师",
+      "position_type": "",
+      "position_salary": "",
+      "position_dept": "",
+      "position_report_to": "",
+      "position_subordinate": "",
+      "employment_type": "",
+      "annual_salary_min": "",
+      "annual_salary_max": "",
+      "status": "在职",
+      "position_start": "2016年07月01日",
+      "position_resigned": "",
+      "resigned_reason": ""
+    },
+    "education_info": {
+      "school_name": "示例大学",
+      "school_major_name": "计算机科学",
+      "school_degree_type": "本科",
+      "school_degree_rank": "4",
+      "school_education_type": "",
+      "school_start_ym": "2009年09月01日",
+      "school_end_ym": "2013年06月01日"
+    },
+    "resumes": [
+      {
+        "base_info": {
+          "full_name": "陈思明",
+          "gender": "男",
+          "age": "",
+          "birth_date": "1990年05月01日",
+          "birth_year": "1990",
+          "marital_status": "",
+          "children_status": "",
+          "political_status": "",
+          "height_cm": "",
+          "weight_kg": "",
+          "household_registration": "",
+          "address": "",
+          "postal_code": "",
+          "platform_from": "示例平台",
+          "platform_resume_id": "",
+          "phone": "13800000001",
+          "email": "chensiming@example.com",
+          "city": "上海",
+          "nationality": "",
+          "pr": ""
+        },
+        "work_experiences": [
+          {
+            "company_name": "示例科技有限公司",
+            "company_employees": "",
+            "company_industry": "",
+            "position": "软件工程师",
+            "position_type": "",
+            "position_salary": "",
+            "position_dept": "",
+            "position_report_to": "",
+            "position_subordinate": "",
+            "employment_type": "",
+            "annual_salary_min": "",
+            "annual_salary_max": "",
+            "status": "在职",
+            "position_start": "2016年07月01日",
+            "position_resigned": "",
+            "resigned_reason": "",
+            "position_responsibilities": "负责后端接口开发与维护。\n参与数据平台建设。",
+            "position_achievements": ""
+          },
+          {
+            "company_name": "虚构信息咨询有限公司",
+            "company_employees": "",
+            "company_industry": "",
+            "position": "助理工程师",
+            "position_type": "",
+            "position_salary": "",
+            "position_dept": "",
+            "position_report_to": "",
+            "position_subordinate": "",
+            "employment_type": "",
+            "annual_salary_min": "",
+            "annual_salary_max": "",
+            "status": "",
+            "position_start": "2013年07月01日",
+            "position_resigned": "2016年06月01日",
+            "resigned_reason": "",
+            "position_responsibilities": "协助完成系统测试。",
+            "position_achievements": ""
+          }
+        ],
+        "education_list": [
+          {
+            "school_name": "示例大学",
+            "school_major_name": "计算机科学",
+            "school_degree_type": "本科",
+            "school_degree_rank": "4",
+            "school_education_type": "",
+            "school_start_ym": "2009年09月01日",
+            "school_end_ym": "2013年06月01日"
+          }
+        ],
+        "certificate_list": [
+          {
+            "certificate_name": "软件设计师",
+            "certificate_type": "证书",
+            "certificate_time": "2014年05月01日"
+          }
+        ],
+        "language_list": [
+          {
+            "language_name": "英语",
+            "language_level": "良好",
+            "language_certificate": "",
+            "language_certificate_time": ""
+          }
+        ],
+        "skills_list": [
+          {
+            "skill_name": "Python",
+            "skill_level": "熟练"
+          }
+        ],
+        "training_list": [],
+        "project_list": [],
+        "communication_list": [],
+        "resume_language": "zh",
+        "keywords": "",
+        "expected_list": [
+          {
+            "expected_city": "上海",
+            "expected_position": "软件工程师",
+            "expected_salary": "20001-30000元/月",
+            "expected_annual_salary_min": "",
+            "expected_annual_salary_max": "",
+            "expected_industry": "",
+            "expected_employment_type": "全职",
+            "expected_start_date": ""
+          }
+        ]
+      }
+    ]
+  },
+  "raw_text": "陈思明\n男 1990年05月01日\n示例科技有限公司 软件工程师\n示例大学 计算机科学 本科"
+}

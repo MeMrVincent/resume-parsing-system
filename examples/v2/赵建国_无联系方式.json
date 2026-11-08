@@ -1,0 +1,131 @@
+{
+  "source": {
+    "original_path": "<项目根>/需要采集的简历文件夹/示例/赵建国简历.doc"
+  },
+  "dates": {
+    "resume_updated_date": "2024-05-01 10:00:00",
+    "resume_download_date": "2024-05-02 09:00:00",
+    "sys_created_date": "2026-01-01T09:00:00+09:00",
+    "sys_updated_date": "2026-01-01T09:00:00+09:00"
+  },
+  "structured_data": {
+    "base_info": {
+      "full_name": "赵建国",
+      "gender": "男",
+      "age": "",
+      "birth_date": "",
+      "birth_year": "",
+      "marital_status": "",
+      "children_status": "",
+      "political_status": "",
+      "height_cm": "",
+      "weight_kg": "",
+      "household_registration": "",
+      "address": "",
+      "postal_code": "",
+      "platform_from": "",
+      "platform_resume_id": "",
+      "phone": "",
+      "email": "",
+      "city": "广州",
+      "nationality": "",
+      "pr": ""
+    },
+    "expected_info": {
+      "expected_city": "",
+      "expected_position": "",
+      "expected_salary": "",
+      "expected_annual_salary_min": "",
+      "expected_annual_salary_max": "",
+      "expected_industry": "",
+      "expected_employment_type": "",
+      "expected_start_date": ""
+    },
+    "current_info": {
+      "company_name": "虚构制造有限公司",
+      "company_employees": "",
+      "company_industry": "",
+      "position": "技术员",
+      "position_type": "",
+      "position_salary": "",
+      "position_dept": "",
+      "position_report_to": "",
+      "position_subordinate": "",
+      "employment_type": "",
+      "annual_salary_min": "",
+      "annual_salary_max": "",
+      "status": "",
+      "position_start": "2019年01月01日",
+      "position_resigned": "",
+      "resigned_reason": ""
+    },
+    "education_info": {
+      "school_name": "",
+      "school_major_name": "",
+      "school_degree_type": "",
+      "school_degree_rank": "",
+      "school_education_type": "",
+      "school_start_ym": "",
+      "school_end_ym": ""
+    },
+    "resumes": [
+      {
+        "base_info": {
+          "full_name": "赵建国",
+          "gender": "男",
+          "age": "",
+          "birth_date": "",
+          "birth_year": "",
+          "marital_status": "",
+          "children_status": "",
+          "political_status": "",
+          "height_cm": "",
+          "weight_kg": "",
+          "household_registration": "",
+          "address": "",
+          "postal_code": "",
+          "platform_from": "",
+          "platform_resume_id": "",
+          "phone": "",
+          "email": "",
+          "city": "广州",
+          "nationality": "",
+          "pr": ""
+        },
+        "work_experiences": [
+          {
+            "company_name": "虚构制造有限公司",
+            "company_employees": "",
+            "company_industry": "",
+            "position": "技术员",
+            "position_type": "",
+            "position_salary": "",
+            "position_dept": "",
+            "position_report_to": "",
+            "position_subordinate": "",
+            "employment_type": "",
+            "annual_salary_min": "",
+            "annual_salary_max": "",
+            "status": "",
+            "position_start": "2019年01月01日",
+            "position_resigned": "",
+            "resigned_reason": "",
+            "position_responsibilities": "",
+            "position_achievements": ""
+          }
+        ],
+        "education_list": [],
+        "certificate_list": [],
+        "language_list": [],
+        "skills_list": [],
+        "training_list": [],
+        "project_list": [],
+        "communication_list": [],
+        "resume_language": "zh",
+        "keywords": "",
+        "expected_list": []
+      }
+    ]
+  },
+  "raw_text": "赵建国 虚构制造有限公司 技术员"
+}

@@ -1,0 +1,141 @@
+{
+  "source": {
+    "original_path": "<项目根>/需要采集的简历文件夹/示例/john_smith_resume.pdf"
+  },
+  "dates": {
+    "resume_updated_date": "2024-05-01 10:00:00",
+    "resume_download_date": "2024-05-02 09:00:00",
+    "sys_created_date": "2026-01-01T09:00:00+09:00",
+    "sys_updated_date": "2026-01-01T09:00:00+09:00"
+  },
+  "structured_data": {
+    "base_info": {
+      "full_name": "John Smith",
+      "gender": "Male",
+      "age": "",
+      "birth_date": "",
+      "birth_year": "1988",
+      "marital_status": "",
+      "children_status": "",
+      "political_status": "",
+      "height_cm": "",
+      "weight_kg": "",
+      "household_registration": "",
+      "address": "",
+      "postal_code": "",
+      "platform_from": "Example Platform",
+      "platform_resume_id": "",
+      "phone": "13800000003",
+      "email": "john.smith@example.com",
+      "city": "Shanghai",
+      "nationality": "",
+      "pr": ""
+    },
+    "expected_info": {
+      "expected_city": "",
+      "expected_position": "",
+      "expected_salary": "",
+      "expected_annual_salary_min": "",
+      "expected_annual_salary_max": "",
+      "expected_industry": "",
+      "expected_employment_type": "",
+      "expected_start_date": ""
+    },
+    "current_info": {
+      "company_name": "Sample Industries Ltd.",
+      "company_employees": "",
+      "company_industry": "",
+      "position": "Project Manager",
+      "position_type": "",
+      "position_salary": "",
+      "position_dept": "",
+      "position_report_to": "",
+      "position_subordinate": "",
+      "employment_type": "",
+      "annual_salary_min": "",
+      "annual_salary_max": "",
+      "status": "Current",
+      "position_start": "2015年01月01日",
+      "position_resigned": "",
+      "resigned_reason": ""
+    },
+    "education_info": {
+      "school_name": "Sample State University",
+      "school_major_name": "Business Administration",
+      "school_degree_type": "Bachelor",
+      "school_degree_rank": "4",
+      "school_education_type": "",
+      "school_start_ym": "2006年09月01日",
+      "school_end_ym": "2010年06月01日"
+    },
+    "resumes": [
+      {
+        "base_info": {
+          "full_name": "John Smith",
+          "gender": "Male",
+          "age": "",
+          "birth_date": "",
+          "birth_year": "1988",
+          "marital_status": "",
+          "children_status": "",
+          "political_status": "",
+          "height_cm": "",
+          "weight_kg": "",
+          "household_registration": "",
+          "address": "",
+          "postal_code": "",
+          "platform_from": "Example Platform",
+          "platform_resume_id": "",
+          "phone": "13800000003",
+          "email": "john.smith@example.com",
+          "city": "Shanghai",
+          "nationality": "",
+          "pr": ""
+        },
+        "work_experiences": [
+          {
+            "company_name": "Sample Industries Ltd.",
+            "company_employees": "",
+            "company_industry": "",
+            "position": "Project Manager",
+            "position_type": "",
+            "position_salary": "",
+            "position_dept": "",
+            "position_report_to": "",
+            "position_subordinate": "",
+            "employment_type": "",
+            "annual_salary_min": "",
+            "annual_salary_max": "",
+            "status": "Current",
+            "position_start": "2015年01月01日",
+            "position_resigned": "",
+            "resigned_reason": "",
+            "position_responsibilities": "Lead cross-functional project teams.",
+            "position_achievements": ""
+          }
+        ],
+        "education_list": [
+          {
+            "school_name": "Sample State University",
+            "school_major_name": "Business Administration",
+            "school_degree_type": "Bachelor",
+            "school_degree_rank": "4",
+            "school_education_type": "",
+            "school_start_ym": "2006年09月01日",
+            "school_end_ym": "2010年06月01日"
+          }
+        ],
+        "certificate_list": [],
+        "language_list": [],
+        "skills_list": [],
+        "training_list": [],
+        "project_list": [],
+        "communication_list": [],
+        "resume_language": "en",
+        "keywords": "",
+        "expected_list": []
+      }
+    ]
+  },
+  "raw_text": "John Smith\nProject Manager\nSample Industries Ltd."
+}

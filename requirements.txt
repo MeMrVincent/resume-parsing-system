@@ -1,0 +1,20 @@
+# Python 3.13 (V3 merging/auditing uses only the standard library). Below are the third-party packages needed by the V2 conversion flow (Word/XLS/PDF/HTML -> JSON).
+beautifulsoup4
+lxml
+openpyxl
+xlrd
+pyxlsb
+mammoth
+olefile
+python-docx
+python-pptx
+defusedxml
+pypdf
+PyMuPDF
+Pillow
+pytesseract
+# Windows only, used when Word/Excel conversion is needed (optional)
+pywin32; sys_platform == "win32"
+# Only for the optional local translation/OCR features
+# torch
+# transformers

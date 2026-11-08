@@ -1,0 +1,221 @@
+{
+  "source": {
+    "original_path": "<项目根>/需要采集的简历文件夹/示例/林雅婷简历中英文.docx"
+  },
+  "dates": {
+    "resume_updated_date": "2024-05-01 10:00:00",
+    "resume_download_date": "2024-05-02 09:00:00",
+    "sys_created_date": "2026-01-01T09:00:00+09:00",
+    "sys_updated_date": "2026-01-01T09:00:00+09:00"
+  },
+  "structured_data": {
+    "base_info": {
+      "full_name": "林雅婷",
+      "gender": "女",
+      "age": "",
+      "birth_date": "",
+      "birth_year": "1992",
+      "marital_status": "",
+      "children_status": "",
+      "political_status": "",
+      "height_cm": "",
+      "weight_kg": "",
+      "household_registration": "",
+      "address": "",
+      "postal_code": "",
+      "platform_from": "示例平台",
+      "platform_resume_id": "",
+      "phone": "13800000002",
+      "email": "linyating@example.com",
+      "city": "北京",
+      "nationality": "",
+      "pr": ""
+    },
+    "expected_info": {
+      "expected_city": "",
+      "expected_position": "",
+      "expected_salary": "",
+      "expected_annual_salary_min": "",
+      "expected_annual_salary_max": "",
+      "expected_industry": "",
+      "expected_employment_type": "",
+      "expected_start_date": ""
+    },
+    "current_info": {
+      "company_name": "示例贸易有限公司",
+      "company_employees": "",
+      "company_industry": "",
+      "position": "销售经理",
+      "position_type": "",
+      "position_salary": "",
+      "position_dept": "",
+      "position_report_to": "",
+      "position_subordinate": "",
+      "employment_type": "",
+      "annual_salary_min": "",
+      "annual_salary_max": "",
+      "status": "在职",
+      "position_start": "2018年03月01日",
+      "position_resigned": "",
+      "resigned_reason": ""
+    },
+    "education_info": {
+      "school_name": "示例外国语大学",
+      "school_major_name": "英语",
+      "school_degree_type": "本科",
+      "school_degree_rank": "4",
+      "school_education_type": "",
+      "school_start_ym": "2010年09月01日",
+      "school_end_ym": "2014年06月01日"
+    },
+    "resumes": [
+      {
+        "base_info": {
+          "full_name": "林雅婷",
+          "gender": "女",
+          "age": "",
+          "birth_date": "",
+          "birth_year": "1992",
+          "marital_status": "",
+          "children_status": "",
+          "political_status": "",
+          "height_cm": "",
+          "weight_kg": "",
+          "household_registration": "",
+          "address": "",
+          "postal_code": "",
+          "platform_from": "示例平台",
+          "platform_resume_id": "",
+          "phone": "13800000002",
+          "email": "linyating@example.com",
+          "city": "北京",
+          "nationality": "",
+          "pr": ""
+        },
+        "work_experiences": [
+          {
+            "company_name": "示例贸易有限公司",
+            "company_employees": "",
+            "company_industry": "",
+            "position": "销售经理",
+            "position_type": "",
+            "position_salary": "",
+            "position_dept": "",
+            "position_report_to": "",
+            "position_subordinate": "",
+            "employment_type": "",
+            "annual_salary_min": "",
+            "annual_salary_max": "",
+            "status": "在职",
+            "position_start": "2018年03月01日",
+            "position_resigned": "",
+            "resigned_reason": "",
+            "position_responsibilities": "负责华东区客户开发。",
+            "position_achievements": ""
+          }
+        ],
+        "education_list": [
+          {
+            "school_name": "示例外国语大学",
+            "school_major_name": "英语",
+            "school_degree_type": "本科",
+            "school_degree_rank": "4",
+            "school_education_type": "",
+            "school_start_ym": "2010年09月01日",
+            "school_end_ym": "2014年06月01日"
+          }
+        ],
+        "certificate_list": [],
+        "language_list": [
+          {
+            "language_name": "英语",
+            "language_level": "流利",
+            "language_certificate": "",
+            "language_certificate_time": ""
+          }
+        ],
+        "skills_list": [],
+        "training_list": [],
+        "project_list": [],
+        "communication_list": [],
+        "resume_language": "zh",
+        "keywords": "",
+        "expected_list": []
+      },
+      {
+        "base_info": {
+          "full_name": "Lin Yating",
+          "gender": "Female",
+          "age": "",
+          "birth_date": "",
+          "birth_year": "1992",
+          "marital_status": "",
+          "children_status": "",
+          "political_status": "",
+          "height_cm": "",
+          "weight_kg": "",
+          "household_registration": "",
+          "address": "",
+          "postal_code": "",
+          "platform_from": "Example Platform",
+          "platform_resume_id": "",
+          "phone": "13800000002",
+          "email": "linyating@example.com",
+          "city": "Beijing",
+          "nationality": "",
+          "pr": ""
+        },
+        "work_experiences": [
+          {
+            "company_name": "Example Trading Co., Ltd.",
+            "company_employees": "",
+            "company_industry": "",
+            "position": "Sales Manager",
+            "position_type": "",
+            "position_salary": "",
+            "position_dept": "",
+            "position_report_to": "",
+            "position_subordinate": "",
+            "employment_type": "",
+            "annual_salary_min": "",
+            "annual_salary_max": "",
+            "status": "Current",
+            "position_start": "2018年03月01日",
+            "position_resigned": "",
+            "resigned_reason": "",
+            "position_responsibilities": "Responsible for customer development in East China.",
+            "position_achievements": ""
+          }
+        ],
+        "education_list": [
+          {
+            "school_name": "Example University of Foreign Studies",
+            "school_major_name": "English",
+            "school_degree_type": "Bachelor",
+            "school_degree_rank": "4",
+            "school_education_type": "",
+            "school_start_ym": "2010年09月01日",
+            "school_end_ym": "2014年06月01日"
+          }
+        ],
+        "certificate_list": [],
+        "language_list": [
+          {
+            "language_name": "English",
+            "language_level": "Fluent",
+            "language_certificate": "",
+            "language_certificate_time": ""
+          }
+        ],
+        "skills_list": [],
+        "training_list": [],
+        "project_list": [],
+        "communication_list": [],
+        "resume_language": "en",
+        "keywords": "",
+        "expected_list": []
+      }
+    ]
+  },
+  "raw_text": "林雅婷\nLin Yating\n示例贸易有限公司 销售经理"
+}

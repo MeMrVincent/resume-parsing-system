@@ -1,0 +1,35 @@
+# private config
+/config.json
+/python/config.json
+*.local.json
+
+# temp
+/codex-*/
+/complete-transfered-htmls/
+/complete-transfered-jsons/
+/complete-v1/
+/complete-v2/
+/complete-v3/
+/output/
+/claude-align/
+/_archive/
+/unknown/
+CONTEXT.md
+claude.complete.json
+claude.needfix.json
+claude.needfix_source_texts.json
+manual_decisions.json
+alignments.json
+translations.json
+source_texts.json
+*.xlsx
+
+# env
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+repair_data/*.json
+!repair_data/*.example.json
+examples/out/

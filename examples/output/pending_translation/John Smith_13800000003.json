@@ -1,0 +1,208 @@
+{
+  "schema_version": "resume-merge-v3.0",
+  "record_id": "merge-v3-5950e1ca0a13af37",
+  "source": {
+    "original_path": "<项目根>/需要采集的简历文件夹/示例/john_smith_resume.pdf",
+    "html_path": "",
+    "source_count": 1,
+    "source_files": [
+      {
+        "index": 0,
+        "version": "v2",
+        "json_path": "examples/v2/John Smith_13800000003.json",
+        "sha256": "dcb934e0cfd0702fd7df93c2ab76ab160525241b785b0d097c1c8302552a965b",
+        "duplicate_paths": [],
+        "original_path": "<项目根>/需要采集的简历文件夹/示例/john_smith_resume.pdf",
+        "html_path": "",
+        "resume_updated_date": "2024-05-01 10:00:00",
+        "languages": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "dates": {
+    "resume_updated_date": "2024-05-01 10:00:00",
+    "resume_download_date": "2024-05-02 09:00:00",
+    "resume_updated_date_source": "",
+    "resume_download_date_source": "",
+    "sys_created_date": "2026-01-01T09:00:00+09:00",
+    "sys_updated_date": "2026-01-01T00:00:00+09:00"
+  },
+  "extraction": {
+    "merger": "claude_merge.v3.py",
+    "rule_version": "merge-v3.0-contact-key"
+  },
+  "classification": {
+    "document_type": "resume",
+    "reason": "按手机号/邮箱合并的候选人"
+  },
+  "structured_data": {
+    "base_info": {
+      "full_name": "John Smith",
+      "gender": "Male",
+      "age": "",
+      "birth_date": "",
+      "birth_year": "1988",
+      "marital_status": "",
+      "children_status": "",
+      "political_status": "",
+      "height_cm": "",
+      "weight_kg": "",
+      "household_registration": "",
+      "address": "",
+      "postal_code": "",
+      "platform_from": "Example Platform",
+      "platform_resume_id": "",
+      "phone": "13800000003",
+      "email": "john.smith@example.com",
+      "city": "Shanghai",
+      "nationality": "",
+      "pr": ""
+    },
+    "expected_info": {
+      "expected_city": "",
+      "expected_position": "",
+      "expected_salary": "",
+      "expected_annual_salary_min": "",
+      "expected_annual_salary_max": "",
+      "expected_industry": "",
+      "expected_employment_type": "",
+      "expected_start_date": ""
+    },
+    "current_info": {
+      "company_name": "Sample Industries Ltd.",
+      "company_employees": "",
+      "company_industry": "",
+      "position": "Project Manager",
+      "position_type": "",
+      "position_salary": "",
+      "position_dept": "",
+      "position_report_to": "",
+      "position_subordinate": "",
+      "employment_type": "",
+      "annual_salary_min": "",
+      "annual_salary_max": "",
+      "status": "Current",
+      "position_start": "2015年01月01日",
+      "position_resigned": ""
+    },
+    "education_info": {
+      "school_name": "Sample State University",
+      "school_major_name": "Business Administration",
+      "school_degree_type": "Bachelor",
+      "school_degree_rank": "4",
+      "school_education_type": "",
+      "school_start_ym": "2006年09月01日",
+      "school_end_ym": "2010年06月01日"
+    },
+    "resumes": [
+      {
+        "resume_languge": "en",
+        "base_info": {
+          "full_name": "John Smith",
+          "gender": "Male",
+          "age": "",
+          "birth_date": "",
+          "birth_year": "1988",
+          "marital_status": "",
+          "children_status": "",
+          "political_status": "",
+          "height_cm": "",
+          "weight_kg": "",
+          "household_registration": "",
+          "address": "",
+          "postal_code": "",
+          "platform_from": "Example Platform",
+          "platform_resume_id": "",
+          "phone": "13800000003",
+          "email": "john.smith@example.com",
+          "city": "Shanghai",
+          "nationality": "",
+          "pr": ""
+        },
+        "expected_list": [],
+        "work_experiences": [
+          {
+            "company_name": "Sample Industries Ltd.",
+            "company_employees": "",
+            "company_industry": "",
+            "position": "Project Manager",
+            "position_type": "",
+            "position_salary": "",
+            "position_dept": "",
+            "position_report_to": "",
+            "position_subordinate": "",
+            "employment_type": "",
+            "annual_salary_min": "",
+            "annual_salary_max": "",
+            "status": "Current",
+            "position_start": "2015年01月01日",
+            "position_resigned": "",
+            "resigned_reason": "",
+            "position_responsibilities": "Lead cross-functional project teams.",
+            "position_achievements": ""
+          }
+        ],
+        "education_list": [
+          {
+            "school_name": "Sample State University",
+            "school_major_name": "Business Administration",
+            "school_degree_type": "Bachelor",
+            "school_degree_rank": "4",
+            "school_education_type": "",
+            "school_start_ym": "2006年09月01日",
+            "school_end_ym": "2010年06月01日"
+          }
+        ],
+        "certificate_list": [],
+        "language_list": [],
+        "skills_list": [],
+        "training_list": [],
+        "project_list": [],
+        "communication_list": []
+      }
+    ]
+  },
+  "raw_text": "John Smith\nMale\n1988\nExample Platform\n13800000003\njohn.smith@example.com\nShanghai\nSample Industries Ltd.\nProject Manager\nCurrent\n2015年01月01日\nLead cross-functional project teams.\nSample State University\nBusiness Administration\nBachelor\n4\n2006年09月01日\n2010年06月01日",
+  "quality": {
+    "full_name": "John Smith",
+    "has_work": true,
+    "work_count": 1,
+    "has_education": true,
+    "education_count": 1,
+    "languages": [
+      "en"
+    ],
+    "raw_text_length": 260
+  },
+  "merge_info": {
+    "group_id": "5950e1ca0a13af37",
+    "rule_version": "merge-v3.0-contact-key",
+    "output_filename": "John Smith_13800000003.json",
+    "name_status": "valid",
+    "canonical_name": "John Smith",
+    "english_name": "John Smith",
+    "primary_phone": "13800000003",
+    "primary_email": "john.smith@example.com",
+    "other_phones": [],
+    "other_emails": [],
+    "landlines": [],
+    "shared_contacts_ignored": [],
+    "needs_translation": true,
+    "v2_count": 1,
+    "v1_count": 0,
+    "language_sources": {
+      "en": [
+        0
+      ]
+    },
+    "translated_from": "",
+    "name_note": "",
+    "conflict_count": 0,
+    "field_issue_count": 0,
+    "name_linked_sources": [],
+    "output_category": "pending_translation",
+    "high_issue_count": 0
+  }
+}
