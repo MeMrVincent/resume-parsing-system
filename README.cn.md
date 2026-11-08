@@ -13,9 +13,18 @@
 (doc/xls/pdf/html)   (complete-v2 / v1)        (formal / needs_fix / pending_translation)
 ```
 
+- **基础与管理**（Google Antigravity 编写）：负责第一版基础代码编写，以及最后版本代码的整理重构与 Git 项目规范管理。
 - **V2**（`python/v2/`，Codex 编写）：把 Word、XLS、PDF、网页 HTML 转成 HTML，再解析成统一 schema 的 JSON，并带多轮审计。说明见 `docs/v2-*.md`。
 - **V3**（`python/v3/`，Claude 编写）：以手机号/邮箱认定同一个人，把 V2（主）和 V1（辅）的 JSON 合并成一人一份；多语言简历（中/日/英/德）各语言版本逐项对齐；独立审计（30 项检查）；`raw_text` 按固定规则生成。说明见 `docs/v3-pipeline.md`。
 - **common**（`python/common/`）：统一配置读取 `rc_config.py` 和代码静态检查 `check_code.py`。
+
+## AI 协同开发说明
+
+本项目全链路代码、文档及工程化均由 AI 协同完成，具体分工如下：
+
+- **Google Antigravity**：负责第一版的基础代码编写，以及最后版本代码的整理重构、三语国际化与 Git 项目的管理。
+- **OpenAI Codex**：负责 V2 核心多源格式（Word / Excel / PDF / HTML）文件抽取、HTML 清洗与规则解析脚本迭代。
+- **Anthropic Claude**：负责 V3 核心合并管道设计、手机/邮箱唯一主体归并、中日英多语言字段对齐算法与 30 项质量审计系统。
 
 ## 目录结构
 

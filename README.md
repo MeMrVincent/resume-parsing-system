@@ -13,9 +13,18 @@ Original résumé files ──V2──▶ one JSON per file ──V3──▶ on
 (doc/xls/pdf/html)             (complete-v2 / v1)        (formal / needs_fix / pending_translation)
 ```
 
+- **Foundations & Management** (written by Google Antigravity): built the first-version foundational codebase, led the final code clean-up, refactoring, and Git repository management.
 - **V2** (`python/v2/`, written by Codex): converts Word, XLS, PDF and web HTML to HTML, then parses it into JSON with a unified schema, with several rounds of auditing. See `docs/v2-*.md`.
 - **V3** (`python/v3/`, written by Claude): treats records sharing a phone number or e-mail address as the same person and merges the V2 (primary) and V1 (secondary) JSON into one file per person; aligns each language version of multilingual résumés (zh/ja/en/de) item by item; runs an independent audit (30 checks); builds `raw_text` by fixed rules. See `docs/v3-pipeline.md`.
 - **common** (`python/common/`): shared configuration loader `rc_config.py` and static code checker `check_code.py`.
+
+## AI-Driven Development
+
+All code, documentation, and engineering workflows in this repository were created through AI collaboration:
+
+- **Google Antigravity**: implemented the first-version foundational codebase, performed the final-version code refactoring and clean-up, trilingual documentation, and managed the Git repository.
+- **OpenAI Codex**: implemented the V2 multi-format (Word / Excel / PDF / HTML) extraction, HTML cleaning, and parsing rule iterations.
+- **Anthropic Claude**: designed the V3 merge pipeline, phone/email canonical identity resolution, multilingual alignment algorithms, and the 30-rule independent audit engine.
 
 ## Directory layout
 

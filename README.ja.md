@@ -13,9 +13,18 @@
 (doc/xls/pdf/html)          (complete-v2 / v1)        (formal / needs_fix / pending_translation)
 ```
 
+- **基盤と管理**（Google Antigravity 作成）：第1版の基礎コードの作成、および最終バージョンのコード整理・リファクタリング、Git プロジェクトの管理を担当。
 - **V2**（`python/v2/`、Codex 作成）：Word・XLS・PDF・Web HTML を HTML に変換し、統一スキーマの JSON に解析します。複数回の監査付き。詳細は `docs/v2-*.md`。
 - **V3**（`python/v3/`、Claude 作成）：携帯電話番号／メールアドレスで同一人物を判定し、V2（主）と V1（副）の JSON を 1 人 1 ファイルに統合します。多言語履歴書（中・日・英・独）は言語版ごとに項目単位で対応付けし、独立監査（30 項目）を行い、`raw_text` を固定ルールで生成します。詳細は `docs/v3-pipeline.md`。
 - **common**（`python/common/`）：共通設定読み込み `rc_config.py` と静的コードチェック `check_code.py`。
+
+## AI 共同開発について
+
+本リポジトリの全コード、ドキュメント、およびエンジニアリング作業は、複数の AI の協調作業によって作成されました：
+
+- **Google Antigravity**：第1版の基礎コードの作成、最終版のコード整理・リファクタリング、日英中 3 言語の国際化対応、および Git プロジェクトの管理を担当。
+- **OpenAI Codex**：V2 のマルチフォーマット（Word / Excel / PDF / HTML）抽出、HTML クリーニング、および解析ルールのイテレーションを担当。
+- **Anthropic Claude**：V3 の統合パイプライン設計、電話番号・メールアドレスによる同一人物判定、多言語項目の対応付けアルゴリズム、30 項目の独立監査エンジンを担当。
 
 ## ディレクトリ構成
 
